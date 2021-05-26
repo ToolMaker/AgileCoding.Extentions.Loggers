@@ -1,29 +1,12 @@
 ﻿namespace AgileCoding.Extentions.Loggers
 {
-    using System;
-    using System.Diagnostics;
-    using System.Globalization;
-    using System.Linq;
     using AgileCoding.Library.Enums.Logging;
     using AgileCoding.Library.Interfaces.Logging;
-    using AgileCoding.Library.Loggers;
+    using System;
+    using System.Globalization;
 
     public static class LoggerExtensions
     {
-        public static ILogger CreateWindowsEventLoggerInstance(this ILogger logger, string LogName, string sourceName)
-        {
-            var applicatonLog = EventLog.GetEventLogs()
-                .Where(x => x.Log.Equals(LogName))
-                .Single();
-
-            return new WindowsEventLogger(applicatonLog, sourceName);
-        }
-
-        public static ILogger CreateWindowsEventLoggerInstance(this ILogger logger, EventLog eventLog, string sourceName)
-        {
-            return new WindowsEventLogger(eventLog, sourceName);
-        }
-
         public static void WriteVerbose(this ILogger logger, string data, int eventId)
         {
             if (logger == null)
