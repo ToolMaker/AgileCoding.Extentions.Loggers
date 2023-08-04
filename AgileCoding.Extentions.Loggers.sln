@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31019.35
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileCoding.Extentions.Logger", "AgileCoding.Extentions.Logger\AgileCoding.Extentions.Logger.csproj", "{3A57CD17-6BFD-4781-B534-5B0F7A1BE574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileCoding.Extentions.Logger", "AgileCoding.Extentions.Logger\AgileCoding.Extentions.Logger.csproj", "{5CE5FDC0-56DC-4723-8A10-8FC3D47CB9AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A57CD17-6BFD-4781-B534-5B0F7A1BE574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A57CD17-6BFD-4781-B534-5B0F7A1BE574}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A57CD17-6BFD-4781-B534-5B0F7A1BE574}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A57CD17-6BFD-4781-B534-5B0F7A1BE574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE5FDC0-56DC-4723-8A10-8FC3D47CB9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE5FDC0-56DC-4723-8A10-8FC3D47CB9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE5FDC0-56DC-4723-8A10-8FC3D47CB9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE5FDC0-56DC-4723-8A10-8FC3D47CB9AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
